@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="sucess.css">
+    <title>sucess</title>
+</head>
+<body>
+<div class="popup"id="popup">
+    <img src="tick2.png">
+    <h1><%= first %></h1>
+    <h3><%= email %></h3>
+    <h4>+91 <%= Contact %></h4>
+    <button type="button"><a href="/">LogOut</a></button>
+    
+ </div>
+ <script>
+    let popup=document.getElementById("popup");
+    window.onload=function(){
+        setTimeout(function openPopup(){
+        popup.classList.add("open-popup");
+    }, 1000);
+}
+ </script>
+</body>
+</html>

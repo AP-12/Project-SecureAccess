@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login and Registration form example</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+ 
+<body>
+ <div class="center">
+    <h3><%= r%></h3>
+<form autocomplete="off"action="/register" method="post">
+<h2>Registration Form</h2>
+
+<div class="txt_field">
+<input type="text" name="fname" required >
+<label>First Name :</label>
+<span></span>
+ </div>
+ <div class="txt_field">
+<input type="text" name="lname" required>
+<label>Last Name :</label>
+<span></span>
+ </div>
+ <div class="txt_field">
+<input type="text" name="uname" required>
+<label>Username :</label>
+<span></span>
+ </div>
+ <div class="txt_field">
+<input type="password" name="pass" required>
+<label>Password :</label>
+<span></span>
+ </div>
+ <div class="txt_field">
+<input type="text" name="email" required>
+<label>Email :</label>
+<span></span>
+ </div>
+ <div class="txt_field">
+<input type="text" name="mno" required>
+<label>Mobile No :</label>
+<span></span>
+ </div><div class="sub">
+     <a href="/">Back to login</a></div>
+<button type="submit" class="button1" value="Submit">Register</button>
+
+</form>
+ </div>
+ 
+</body>
+</html>

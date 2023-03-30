@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="sucess.css">
+    <title>sucess</title>
+</head>
+<body>
+<div class="popup"id="popup">
+    <img src="tick.png">
+    <h2>Thank you</h2>
+    <p>Your detail has been Successfully Submitted</p>
+    <button type="button"><a href="/">back to login</a></button>
+    
+ </div>
+ <script>
+    let popup=document.getElementById("popup");
+    window.onload=function(){
+        setTimeout(function openPopup(){
+        popup.classList.add("open-popup");
+    }, 1000);
+}
+ </script>
+</body>
+</html>
